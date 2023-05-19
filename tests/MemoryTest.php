@@ -17,6 +17,7 @@ final class MemoryTest extends TestCase
             [1, '1 B'],
             [2048.0, '2 KB'],
             [3145728, '3 MB'],
+            [4294967296.0, '4 GB'],
         ];
     }
 
