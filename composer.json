@@ -1,0 +1,17 @@
+{
+    "name": "tkachikov/memory",
+    "autoload": {
+        "psr-4": {
+            "Tkachikov\\Memory\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "authors": [
+        {
+            "name": "Ткачиков Александр",
+            "email": "a.tkachikov@mail.ru"
+        }
+    ]
+}
