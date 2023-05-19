@@ -19,7 +19,7 @@ $usage = $memory->showUsage();
 $peak = $memory->showPeak();
 
 // Get custom view memory
-$customMemory = (new Memory())
+$customMemory = (new Memory()) // or in Laravel app(Memory::class)
   ->size(memory_get_usage(true))
   ->show();
 
