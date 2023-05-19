@@ -13,5 +13,13 @@
             "name": "Ткачиков Александр",
             "email": "a.tkachikov@mail.ru"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
+    }
 }
