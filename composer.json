@@ -1,5 +1,8 @@
 {
     "name": "tkachikov/memory",
+    "description": "Package for view memory with postfix (KB, GB, etc)",
+    "keywords": ["memory", "helper"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Tkachikov\\Memory\\": "src/"
