@@ -1,6 +1,6 @@
 # memory
 
-[![Memory release: 1.1](https://img.shields.io/badge/packagist-1.1-00B2EE.svg)](https://packagist.org/packages/tkachikov/memory)
+[![Memory release: 1.2](https://img.shields.io/badge/packagist-1.2-00B2EE.svg)](https://packagist.org/packages/tkachikov/memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 This package need to convert bytes to view. Exmaple: 4194304 => 4 MB
