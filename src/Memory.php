@@ -39,7 +39,10 @@ class Memory
      */
     public function show(): string
     {
-        return "$this->preparedSize {$this->units[$this->pow]}";
+        $preparedSize = number_format($this->preparedSize, 2);
+        $trimmed = rtrim(rtrim($preparedSize, '0'), '.');
+
+        return "$trimmed {$this->units[$this->pow]}";
     }
 
     /**
@@ -82,7 +85,7 @@ class Memory
      */
     protected function initPreparedSize(): void
     {
-        $this->preparedSize = round($this->size / pow(1024, $this->pow));
+        $this->preparedSize = $this->size / pow(1024, $this->pow);
     }
 
     /**
